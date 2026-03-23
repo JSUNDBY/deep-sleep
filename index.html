@@ -633,12 +633,12 @@
       btn.disabled = true;
       btn.style.opacity = '0.7';
 
-      // Post to Kit silently in the background (update form ID when created)
-      // fetch('https://app.kit.com/forms/YOUR_FORM_ID/subscriptions', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ email_address: email, first_name: name })
-      // }).catch(() => {});
+      // Post to Kit silently in the background
+      fetch('https://app.kit.com/forms/9239579/subscriptions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email_address: email, first_name: name })
+      }).catch(() => {}); // fail silently — never block the user
 
       // Redirect to free session page
       setTimeout(() => {
