@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230a0c10'/><text x='50' y='72' font-family='Georgia,serif' font-size='68' font-weight='400' font-style='italic' fill='%23d4a853' text-anchor='middle'>S</text></svg>">
+  <title>Terms of Service - Deep Sleep - Superthoughts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .legal { padding: clamp(8rem, 14vh, 12rem) 0 clamp(4rem, 8vh, 6rem); }
+    .legal h1 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; margin-bottom: 0.5rem; }
+    .legal .updated { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3rem; }
+    .legal h2 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 400; margin: 2.5rem 0 0.75rem; color: var(--text); }
+    .legal p, .legal li { font-size: 0.95rem; color: var(--text-muted); line-height: 1.85; margin-bottom: 1rem; }
+    .legal ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .legal a { color: var(--amber); transition: opacity 0.2s; }
+    .legal a:hover { opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-text">Superthoughts</span></a>
+    </div>
+  </nav>
+
+  <div class="legal">
+    <div class="container container--narrow">
+      <h1>Terms of Service</h1>
+      <p class="updated">Last updated: March 2026</p>
+
+      <p>By using the Superthoughts website and purchasing our programs, you agree to the following terms.</p>
+
+      <h2>What you're purchasing</h2>
+      <p>When you purchase a Superthoughts program, you receive lifetime access to stream and download the audio recordings included in that program. "Lifetime access" means for as long as we operate the service.</p>
+
+      <h2>Personal use only</h2>
+      <p>All content is licensed for your personal, non-commercial use. You may not redistribute, resell, or share your access with others. You may not use our recordings in any commercial product, app, or service.</p>
+
+      <h2>Not medical advice</h2>
+      <p>Superthoughts programs are wellness and mindfulness recordings. They are not a substitute for professional medical advice, diagnosis, or treatment. If you have a sleep disorder or medical condition, consult a qualified healthcare provider. Do not use these recordings while driving or operating machinery.</p>
+
+      <h2>Payments and refunds</h2>
+      <p>All payments are processed securely through Stripe. Prices are in USD. If you are unsatisfied with your purchase, contact us within 30 days for a full refund at <a href="mailto:hello@superthoughts.com">hello@superthoughts.com</a>.</p>
+
+      <h2>Intellectual property</h2>
+      <p>All content, including audio recordings, text, design, and code, is owned by Superthoughts and protected by copyright. The Superthoughts name and logo are our trademarks.</p>
+
+      <h2>Availability</h2>
+      <p>We strive to keep our content available at all times but cannot guarantee uninterrupted access. We are not liable for any temporary unavailability due to maintenance or technical issues.</p>
+
+      <h2>Changes to these terms</h2>
+      <p>We may update these terms from time to time. Continued use of our services after changes constitutes acceptance of the updated terms.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about these terms? Email us at <a href="mailto:hello@superthoughts.com">hello@superthoughts.com</a>.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Superthoughts. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:hello@superthoughts.com">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 60); }, { passive: true });
+  </script>
+</body>
+</html>

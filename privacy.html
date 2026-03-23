@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230a0c10'/><text x='50' y='72' font-family='Georgia,serif' font-size='68' font-weight='400' font-style='italic' fill='%23d4a853' text-anchor='middle'>S</text></svg>">
+  <title>Privacy Policy - Deep Sleep - Superthoughts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .legal { padding: clamp(8rem, 14vh, 12rem) 0 clamp(4rem, 8vh, 6rem); }
+    .legal h1 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; margin-bottom: 0.5rem; }
+    .legal .updated { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3rem; }
+    .legal h2 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 400; margin: 2.5rem 0 0.75rem; color: var(--text); }
+    .legal p, .legal li { font-size: 0.95rem; color: var(--text-muted); line-height: 1.85; margin-bottom: 1rem; }
+    .legal ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .legal a { color: var(--amber); transition: opacity 0.2s; }
+    .legal a:hover { opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-text">Superthoughts</span></a>
+    </div>
+  </nav>
+
+  <div class="legal">
+    <div class="container container--narrow">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: March 2026</p>
+
+      <p>Superthoughts ("we," "us," or "our") respects your privacy. This policy explains what information we collect, why we collect it, and how we use it.</p>
+
+      <h2>What we collect</h2>
+      <ul>
+        <li><strong>Email address and first name</strong> when you sign up for a complimentary session or purchase a program.</li>
+        <li><strong>Payment information</strong> processed securely through Stripe. We never see or store your full card number.</li>
+        <li><strong>Usage data</strong> such as pages visited and session progress, stored locally on your device via localStorage.</li>
+      </ul>
+
+      <h2>How we use your information</h2>
+      <ul>
+        <li>To deliver the content you requested (sessions, programs).</li>
+        <li>To send occasional emails about new programs or updates. You can unsubscribe at any time.</li>
+        <li>To improve our website and content based on aggregate usage patterns.</li>
+      </ul>
+
+      <h2>Third-party services</h2>
+      <p>We use the following services:</p>
+      <ul>
+        <li><strong>Stripe</strong> for payment processing.</li>
+        <li><strong>Kit (ConvertKit)</strong> for email delivery.</li>
+        <li><strong>Bunny CDN</strong> for audio file delivery.</li>
+        <li><strong>GitHub Pages</strong> for website hosting.</li>
+      </ul>
+      <p>Each of these services has its own privacy policy. We do not sell your personal information to third parties.</p>
+
+      <h2>Cookies and local storage</h2>
+      <p>We use localStorage to remember your session progress and email access. We do not use tracking cookies or advertising pixels.</p>
+
+      <h2>Data retention</h2>
+      <p>We retain your email address for as long as you remain subscribed to our mailing list. You can request deletion at any time by emailing us.</p>
+
+      <h2>Your rights</h2>
+      <p>You may request access to, correction of, or deletion of your personal data at any time. Contact us at <a href="mailto:hello@superthoughts.com">hello@superthoughts.com</a>.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy from time to time. We will notify you of significant changes via email.</p>
+
+      <h2>Contact</h2>
+      <p>If you have any questions about this policy, email us at <a href="mailto:hello@superthoughts.com">hello@superthoughts.com</a>.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Superthoughts. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:hello@superthoughts.com">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 60); }, { passive: true });
+  </script>
+</body>
+</html>
