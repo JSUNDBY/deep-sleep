@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1a1c22"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <!-- Subtle dot pattern -->
+  <pattern id="dots" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+    <circle cx="24" cy="24" r="0.8" fill="rgba(240,235,228,0.04)"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <!-- Amber accent line -->
+  <rect x="80" y="200" width="60" height="3" rx="1.5" fill="#d4a853" opacity="0.8"/>
+  <!-- Brand -->
+  <text x="80" y="180" font-family="Georgia, serif" font-size="18" fill="#a09994" letter-spacing="3">SUPERTHOUGHTS</text>
+  <!-- Title -->
+  <text x="80" y="280" font-family="Georgia, serif" font-size="64" fill="#f0ebe4" font-weight="400">Deep Sleep</text>
+  <!-- Subtitle -->
+  <text x="80" y="340" font-family="Helvetica, sans-serif" font-size="24" fill="#a09994" font-weight="300">An 8-session guided sleep program</text>
+  <text x="80" y="375" font-family="Helvetica, sans-serif" font-size="24" fill="#a09994" font-weight="300">grounded in clinical research.</text>
+  <!-- Stats -->
+  <text x="80" y="450" font-family="Helvetica, sans-serif" font-size="16" fill="#d4a853" letter-spacing="1">39,000+ SESSIONS GUIDED</text>
+  <text x="380" y="450" font-family="Helvetica, sans-serif" font-size="16" fill="#7d9b8a" letter-spacing="1">4.8 / 5 RATING</text>
+  <text x="580" y="450" font-family="Helvetica, sans-serif" font-size="16" fill="#b8929a" letter-spacing="1">$49 ONE-TIME</text>
+  <!-- CTA hint -->
+  <rect x="80" y="490" width="280" height="48" rx="4" fill="none" stroke="#d4a853" stroke-width="1.5" opacity="0.7"/>
+  <text x="140" y="520" font-family="Helvetica, sans-serif" font-size="15" fill="#d4a853" letter-spacing="2">FREE SESSION INSIDE</text>
+  <!-- Bottom border -->
+  <rect x="0" y="625" width="1200" height="5" fill="#d4a853" opacity="0.3"/>
+</svg>
